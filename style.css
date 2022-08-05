@@ -1,0 +1,44 @@
+html
+{
+    background-image:url("/photoes/soliwood.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center;
+    background-repeat: no-repeat;
+}
+#body
+{
+    color: white;
+    background-color: rgba(80, 80, 80, 0.435)
+}
+#header
+{
+    font-family:'Courier New', Courier, monospace;
+    font-size:150%;
+    color: rgb(67, 95, 138);
+}
+#navigation
+{
+    text-align: center;
+    color: white;
+    background-color: rgba(228, 194, 54, 0.542);
+    padding: 20px;
+}
+.subheading
+{
+    margin-top: 100px;
+    color: rgba(194, 194, 194, 0.818);
+    font-family: 'Courier New', Courier, monospace;
+    font-size:230%;
+    text-align: center;
+}
+#footer
+{
+    background-color: rgba(189, 189, 189, 0.46);
+    color: rgba(0, 0, 0, 0.826);
+}
+.image:hover
+{
+    width: 100%;
+}
