@@ -1,6 +1,6 @@
 html
 {
-    background-image:url("/photoes/soliwood.jpg");
+    background-image: url('photoes/soliwood.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
