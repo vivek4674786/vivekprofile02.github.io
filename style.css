@@ -6,24 +6,48 @@ html
     background-position-x: center;
     background-position-y:center;
     background-repeat: no-repeat;
+    text-decoration: none;
 }
 #body
 {
     color: white;
-    background-color: rgba(80, 80, 80, 0.436);
+    background-color: rgba(80, 80, 80, 0.435);
 }
-#header
+#header h1
 {
     font-family:'Courier New', Courier, monospace;
-    font-size:150%;
+    font-size: 4vw;
     color: rgb(67, 95, 138);
+}
+header
+{
+    background-color: rgba(255, 255, 0, 0.606);
+    padding-top:20px;
 }
 #navigation
 {
     text-align: center;
+    background-color: rgba(142, 140, 18, 0.606);
+    font-size: 1.5vw;
+}
+nav table a
+{
+    padding: 10px;
+    text-decoration: none;
     color: white;
-    background-color: rgba(228, 194, 54, 0.542);
-    padding: 20px;
+    font-size: 150%;
+}
+nav  table a:hover
+{
+    color: rgb(220, 33, 114);
+}
+#td1
+{
+    width:20vw;
+}
+#td2
+{
+    width:60vw;
 }
 .subheading
 {
@@ -38,7 +62,20 @@ html
     background-color: rgba(189, 189, 189, 0.46);
     color: rgba(0, 0, 0, 0.826);
 }
+.image
+{
+    margin: 20px;
+    padding: 7px;
+}
 .image:hover
 {
+    margin: 0px;
     width: 100%;
+    padding: 0px;
+    border: 3px solid rgba(11, 133, 255, 0.648);
+    border-radius: 20px;
+}
+.icon:hover
+{
+    width: 62px;
 }
