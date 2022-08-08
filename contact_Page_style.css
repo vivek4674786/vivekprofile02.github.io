@@ -1,4 +1,5 @@
 
+
 html
 {
     background-color: rgba(238, 102, 165, 0.371);
@@ -22,6 +23,11 @@ h4
     font-family: 'Bahianita', cursive;
     font-size:1vw;
     font-weight: 100;
+}
+#note
+{
+    text-align:unset;
+    font-size: 0.7vw;
 }
 #head
 {
