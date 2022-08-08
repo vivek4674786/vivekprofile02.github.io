@@ -1,0 +1,69 @@
+
+html
+{
+    background-color: rgba(238, 102, 165, 0.371);
+}
+body
+{
+    background-color: rgb(203, 233, 83);
+    border: 1px solid rgb(93, 93, 93);
+    border-radius: 2vw;
+    font-size: 1.5vw;
+    margin-inline: 20vW;
+    margin-top: 3vw;
+}
+h1
+{
+    font-family: 'Dancing Script', cursive;
+    font-size:3vw;
+}
+h4
+{
+    font-family: 'Bahianita', cursive;
+    font-size:1vw;
+    font-weight: 100;
+}
+#head
+{
+    border: 1px solid rgb(93, 93, 93);
+    border-radius: 2vw;
+    background-color: rgb(255, 225, 30);
+    text-align: center;
+}
+#body
+{
+    padding: 1vw;
+}
+table
+{
+    width:50vw;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea
+{
+    margin:0.4vw;
+    padding: 0.5vw;
+    border-radius: 10px;
+    background-color: rgb(210, 229, 131);
+    width:100%;
+}
+button
+{
+    color:rgb(0, 0, 0);
+    background-color: rgb(235, 161, 77);
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 100px;
+    padding: 0.5vw;
+    width:30%;
+    margin-top: 2.7vw;
+    margin-bottom:0.1vw;
+    margin-left: 20vw;
+    
+}
+button:hover
+{
+    background-color: rgb(255, 126, 75);
+    border: 2px solid black;
+}
