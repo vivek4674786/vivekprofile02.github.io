@@ -11,35 +11,44 @@ html
 #body
 {
     color: white;
+    font-size: 1.8vw;
     background-color: rgba(80, 80, 80, 0.435);
 }
 #header h1
 {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Dancing Script', cursive;
     font-size: 4vw;
     color: rgb(67, 95, 138);
 }
 header
 {
+    border:0px solid black;
+    border-radius: 25px;
     background-color: rgba(255, 255, 0, 0.606);
-    padding-top:20px;
+    padding-top:4vw;
 }
 #navigation
 {
+    border:0px solid black;
+    border-radius: 25px;
     text-align: center;
     background-color: rgba(142, 140, 18, 0.606);
     font-size: 1.5vw;
 }
 nav table a
 {
-    padding: 10px;
+    margin:0.6vw;
+    padding: 0.3vw;
     text-decoration: none;
     color: white;
     font-size: 150%;
 }
 nav  table a:hover
 {
-    color: rgb(220, 33, 114);
+    border:0px solid black;
+    border-radius: 25px;
+    background-color: rgba(142, 140, 18, 0.996);
+    color: rgb(0, 242, 255);
 }
 #td1
 {
@@ -51,10 +60,10 @@ nav  table a:hover
 }
 .subheading
 {
-    margin-top: 100px;
+    margin-top: 10vw;
     color: rgba(194, 194, 194, 0.818);
-    font-family: 'Courier New', Courier, monospace;
-    font-size:230%;
+    font-family: 'Courgette', cursive;
+    font-size:3vw;
     text-align: center;
 }
 #footer
@@ -78,4 +87,14 @@ nav  table a:hover
 .icon:hover
 {
     width: 62px;
+}
+#contactlink
+{
+    font-style: italic;
+    color: rgb(0, 93, 109);
+}
+#contactlink:hover
+{
+    color:blue;
+    font-size: larger;
 }
