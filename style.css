@@ -1,6 +1,7 @@
+
 html
 {
-    background-image: url('photoes/soliwood.jpg');
+    background-color: rgb(57, 57, 57);
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
@@ -8,11 +9,15 @@ html
     background-repeat: no-repeat;
     text-decoration: none;
 }
-#body
+body
+{
+    margin:0px;
+    padding: 3px;
+}
+#main,#footer
 {
     color: white;
     font-size: 1.8vw;
-    background-color: rgba(80, 80, 80, 0.435);
 }
 #header h1
 {
